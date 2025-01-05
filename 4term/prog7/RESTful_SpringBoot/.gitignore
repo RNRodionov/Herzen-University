@@ -1,0 +1,32 @@
+# Build output directories
+/target/
+/build/
+
+# Maven-specific files
+.mvn/
+mvnw
+mvnw.cmd
+
+# Logs
+*.log
+
+ Spring Boot specific files
+*.jar
+*.war
+*.ear
+
+# Temporary files created by the JVM
+*.class
+*.jar
+*.war
+*.ear
+hs_err_pid*
+
+# .env files (if used for environment variables)
+.env
+
+# Exclude local database files (if you use one in development)
+*.db
+
+# Exclude generated directories or files
+/.mvn/
